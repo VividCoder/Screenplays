@@ -15,13 +15,67 @@
       <Text>          An Antony Robert Wells Screenplay.</Text>
     </Paragraph>
     <Paragraph Type="Scene Heading">
-      <SceneProperties Color="#7373FDFDFFFF" Length="1/8" Page="1" Title="Opening Shot">
-        <SceneArcBeats/>
+      <SceneProperties Color="#7373FDFDFFFF" Length="4/8" Page="1" Title="Opening Shot">
+        <Summary>
+          <Paragraph Alignment="Left" FirstIndent="0.00" Leading="Regular" LeftIndent="0.00" RightIndent="1.39" SpaceBefore="0" Spacing="1" StartsNewPage="No">
+            <Text AdornmentStyle="0" Background="#FFFFFFFFFFFF" Color="#000000000000" Font="Arial" RevisionID="0" Size="12" Style="">The opening scene, where vincent agrees to his departure date and meets up with a few friends.</Text>
+          </Paragraph>
+          <Paragraph Alignment="Left" FirstIndent="0.00" Leading="Regular" LeftIndent="0.00" RightIndent="1.39" SpaceBefore="0" Spacing="1" StartsNewPage="No">
+            <Text AdornmentStyle="0" Background="#FFFFFFFFFFFF" Color="#000000000000" Font="Courier Final Draft" RevisionID="0" Size="12" Style=""></Text>
+          </Paragraph>
+        </Summary>
+        <SceneArcBeats>
+          <CharacterArcBeat Name="">
+            <Paragraph Alignment="Left" FirstIndent="0.00" Leading="Regular" LeftIndent="0.00" RightIndent="1.39" SpaceBefore="0" Spacing="1" StartsNewPage="No">
+              <Text AdornmentStyle="0" Background="#FFFFFFFFFFFF" Color="#000000000000" Font="Arial" RevisionID="0" Size="12" Style=""></Text>
+            </Paragraph>
+          </CharacterArcBeat>
+          <CharacterArcBeat Name="FEMALE VOICE">
+            <Paragraph Alignment="Left" FirstIndent="0.00" Leading="Regular" LeftIndent="0.00" RightIndent="1.39" SpaceBefore="0" Spacing="1" StartsNewPage="No">
+              <Text AdornmentStyle="0" Background="#FFFFFFFFFFFF" Color="#000000000000" Font="Arial" RevisionID="0" Size="12" Style="">Provides vincent his departure date.</Text>
+            </Paragraph>
+            <Paragraph Alignment="Left" FirstIndent="0.00" Leading="Regular" LeftIndent="0.00" RightIndent="1.39" SpaceBefore="0" Spacing="1" StartsNewPage="No">
+              <Text AdornmentStyle="0" Background="#FFFFFFFFFFFF" Color="#000000000000" Font="Courier Final Draft" RevisionID="0" Size="12" Style=""></Text>
+            </Paragraph>
+          </CharacterArcBeat>
+          <CharacterArcBeat Name="VINCENT">
+            <Paragraph Alignment="Left" FirstIndent="0.00" Leading="Regular" LeftIndent="0.00" RightIndent="1.39" SpaceBefore="0" Spacing="1" StartsNewPage="No">
+              <Text AdornmentStyle="0" Background="#FFFFFFFFFFFF" Color="#000000000000" Font="Arial" RevisionID="0" Size="12" Style="">Agrees to his departure date and meets up with his friends.</Text>
+            </Paragraph>
+            <Paragraph Alignment="Left" FirstIndent="0.00" Leading="Regular" LeftIndent="0.00" RightIndent="1.39" SpaceBefore="0" Spacing="1" StartsNewPage="No">
+              <Text AdornmentStyle="0" Background="#FFFFFFFFFFFF" Color="#000000000000" Font="Courier Final Draft" RevisionID="0" Size="12" Style=""></Text>
+            </Paragraph>
+          </CharacterArcBeat>
+        </SceneArcBeats>
       </SceneProperties>
       <Text>EXT. NEw york, modern day.</Text>
     </Paragraph>
     <Paragraph Type="Action">
       <Text>It is raining heavily, upon cars and human traffic.</Text>
+    </Paragraph>
+    <Paragraph Type="Action">
+      <Text>Vincent is walking through the crowds of people, his mobile to his ear.</Text>
+    </Paragraph>
+    <Paragraph Type="Character">
+      <Text></Text>
+    </Paragraph>
+    <Paragraph Type="Character">
+      <Text>Vincent</Text>
+    </Paragraph>
+    <Paragraph Type="Dialogue">
+      <Text>In three weeks? That’s doable for me. I’ll be sure to make contact before I leave.</Text>
+    </Paragraph>
+    <Paragraph Type="Character">
+      <Text>FEMALE VOICE (O.s.)</Text>
+    </Paragraph>
+    <Paragraph Type="Dialogue">
+      <Text>Thank you sir, and may I be the first to say, welcome to the U.S Army!</Text>
+    </Paragraph>
+    <Paragraph Type="Character">
+      <Text>VINCENT</Text>
+    </Paragraph>
+    <Paragraph Type="Dialogue">
+      <Text>Thank you too, I’ll be in touch.</Text>
     </Paragraph>
     <Paragraph Type="Action">
       <Text></Text>
@@ -73,7 +127,7 @@
 
   <WindowState Height="1058" Left="2" Mode="Normal" Top="2" Width="1450"/>
 
-  <TextState Scaling="100" Selection="131,131" ShowInvisibles="No"/>
+  <TextState Scaling="100" Selection="52,52" ShowInvisibles="No"/>
 
   <ElementSettings Type="General">
     <FontSpec AdornmentStyle="0" Background="#FFFFFFFFFFFF" Color="#000000000000" Font="Courier Final Draft" RevisionID="0" Size="12" Style=""/>
@@ -328,6 +382,8 @@
   <SmartType>
     <Characters>
       <Character>RAin</Character>
+      <Character>Vincent</Character>
+      <Character>FEMALE VOICE</Character>
     </Characters>
     <Extensions>
       <Extension>(V.O.)</Extension>
@@ -673,7 +729,9 @@
       <Element Type="Character"/>
       <Element Type="Dialogue"/>
     </Narrator>
-    <Member Actor="" Character="RAin"/>
+    <Member Actor="Man 1" Character="RAin"/>
+    <Member Actor="" Character="Vincent"/>
+    <Member Actor="" Character="FEMALE VOICE"/>
   </Cast>
 
   <SceneNumberOptions LeftLocation="0.75" NumberScheme="1A" RightLocation="7.38" ShowNumbersOnLeft="Yes" ShowNumbersOnRight="Yes">
@@ -684,10 +742,14 @@
     <CustomOrder/>
   </CastList>
 
-  <CharacterHighlighting/>
+  <CharacterHighlighting>
+    <Character Color="#FFFFFFFFFFFF" Name="" Visible="No"/>
+    <Character Color="#FFFFFFFFFFFF" Name="FEMALE VOICE" Visible="No"/>
+    <Character Color="#FFFFFFFFFFFF" Name="VINCENT" Visible="No"/>
+  </CharacterHighlighting>
 
   <CharacterNavigatorPreferences IsSortAscending="Yes" SortColumn="Order">
-    <Column Width="52">Order</Column>
+    <Column Width="56">Order</Column>
     <Column Width="51">Page</Column>
     <Column Width="49">Intro</Column>
     <Column Width="173">Location</Column>
@@ -697,16 +759,17 @@
   </CharacterNavigatorPreferences>
 
   <TagsNavigatorPreferences IsSortAscending="Yes" SortColumn="Order">
-    <Column Width="50">Page</Column>
-    <Column Width="64">Scene #</Column>
+    <Column Width="51">Page</Column>
+    <Column Width="70">Scene #</Column>
     <Column Width="50">Intro</Column>
     <Column Width="260">Location</Column>
     <Column Width="90">Time</Column>
-    <Column Width="60">Length</Column>
+    <Column Width="63">Length</Column>
     <Column UserType="CategoryColumnType" Width="360">Synopsis</Column>
     <Column UserType="CategoryColumnType" Width="360">Cast Members</Column>
     <Column Width="360">Tags</Column>
-    <Column Width="52">Order</Column>
+    <Column Width="56">Order</Column>
+    <Column Width="50">Title</Column>
   </TagsNavigatorPreferences>
 
   <AltCollection/>
@@ -716,8 +779,8 @@
   <ListItems/>
 
   <DisplayBoards>
-    <DisplayBoard Height="10000" ScrollOrigin="0,0" Type="Beat" Width="24000" ZoomLevel="100.000"/>
     <DisplayBoard Height="55" ScrollOrigin="0,0" Type="StoryMap" Width="2032" ZoomLevel="100.000"/>
+    <DisplayBoard Height="10000" ScrollOrigin="0,0" Type="Beat" Width="24000" ZoomLevel="100.000"/>
   </DisplayBoards>
 
   <TagData>
@@ -755,49 +818,116 @@
   </TagData>
 
   <Characters>
-    <TableColumnSettings IsSortAscending="Yes" SortColumn="" TableIdentifier="NavDynCharacters">
+    <TableColumnSettings IsSortAscending="Yes" SortColumn="Character" TableIdentifier="NavDynCharacters">
       <Column Width="150">Character</Column>
-      <Column UserType="TraitColumnType" Width="50">Role</Column>
-      <Column UserType="TraitColumnType" Width="63">Gender</Column>
-      <Column UserType="TraitColumnType" Width="70">Ethnicity</Column>
-      <Column UserType="TraitColumnType" Width="83">Orientation</Column>
-      <Column UserType="TraitColumnType" Width="73">Disability</Column>
+      <Column UserType="TraitColumnType" Width="52">Role</Column>
+      <Column UserType="TraitColumnType" Width="70">Gender</Column>
+      <Column UserType="TraitColumnType" Width="78">Ethnicity</Column>
+      <Column UserType="TraitColumnType" Width="97">Orientation</Column>
+      <Column UserType="TraitColumnType" Width="84">Disability</Column>
       <Column UserType="TraitColumnType" Width="50">Age</Column>
-      <Column UserType="TraitColumnType" Width="85">Occupation</Column>
+      <Column UserType="TraitColumnType" Width="98">Occupation</Column>
     </TableColumnSettings>
     <CharacterTraitData>
       <Traits>
-        <Trait ID="ebe44c35-fd80-4bc4-8117-2b806e604a94" Name="Age" Type="text"/>
-        <Trait ID="3c1c04e2-48dc-4b04-8643-89d1cd9ca137" Name="Disability" Type="text"/>
-        <Trait ID="f4076594-524d-4733-ac6b-e4dde6690d68" Name="Ethnicity" Type="text"/>
-        <Trait ID="db64dbfc-6458-4884-a413-86503cdf4965" Name="Gender" Type="text"/>
-        <Trait ID="07f4dbfe-2591-4b03-818f-67f98b5294b1" Name="Occupation" Type="text"/>
-        <Trait ID="43d5358c-f271-4cf6-80b8-832450963c11" Name="Orientation" Type="text"/>
-        <Trait ID="8fac4d6f-1056-47d5-b312-882aba8fa7a6" Name="Role" Type="text"/>
+        <Trait ID="ebe44c35-fd80-4bc4-8117-2b806e604a94" Name="Age" Type="text">
+          <Attributes>
+            <Attribute ID="45fe07a3-1976-4e79-93fa-cae8c9e4da89">42</Attribute>
+            <Attribute ID="49e6aa5a-52e6-4805-a493-6b1a5c70ebd0">30</Attribute>
+          </Attributes>
+        </Trait>
+        <Trait ID="3c1c04e2-48dc-4b04-8643-89d1cd9ca137" Name="Disability" Type="text">
+          <Attributes>
+            <Attribute ID="4b8c9cec-b5a3-4451-a885-78a4ad42cb7c">None</Attribute>
+            <Attribute ID="cc88e798-9ec0-43b8-9058-6ea98ab4160e">Voices</Attribute>
+          </Attributes>
+        </Trait>
+        <Trait ID="f4076594-524d-4733-ac6b-e4dde6690d68" Name="Ethnicity" Type="text">
+          <Attributes>
+            <Attribute ID="5da5a9bd-abe1-4277-a58d-fca650ea5185">American</Attribute>
+          </Attributes>
+        </Trait>
+        <Trait ID="db64dbfc-6458-4884-a413-86503cdf4965" Name="Gender" Type="text">
+          <Attributes>
+            <Attribute ID="099d4b1b-afc8-46b1-8381-a610db987f80">Male</Attribute>
+            <Attribute ID="62a30192-0611-4caf-8cd5-5a5a6bb37783">Female</Attribute>
+          </Attributes>
+        </Trait>
+        <Trait ID="07f4dbfe-2591-4b03-818f-67f98b5294b1" Name="Occupation" Type="text">
+          <Attributes>
+            <Attribute ID="5e897cab-4c16-44f7-94ab-d735e35ea5b8">Army recruit</Attribute>
+            <Attribute ID="7bdc4942-67b0-4664-90f9-82ed9ebccf2c">Army recruitment officier</Attribute>
+          </Attributes>
+        </Trait>
+        <Trait ID="43d5358c-f271-4cf6-80b8-832450963c11" Name="Orientation" Type="text">
+          <Attributes>
+            <Attribute ID="a6043141-7700-44f3-a857-baaea361e076">Hedrosexual</Attribute>
+          </Attributes>
+        </Trait>
+        <Trait ID="8fac4d6f-1056-47d5-b312-882aba8fa7a6" Name="Role" Type="text">
+          <Attributes>
+            <Attribute ID="194ffb2d-49d9-4387-9454-6533a52f1e5c">Lead Character</Attribute>
+            <Attribute ID="fb827fd8-686f-423c-b2bb-50d92a3b3027">Army recruitment officier.</Attribute>
+          </Attributes>
+        </Trait>
       </Traits>
-      <Holders/>
+      <Holders>
+        <Holder Name="FEMALE VOICE">
+          <Attributes>
+            <Attribute ID="7bdc4942-67b0-4664-90f9-82ed9ebccf2c"/>
+            <Attribute ID="4b8c9cec-b5a3-4451-a885-78a4ad42cb7c"/>
+            <Attribute ID="a6043141-7700-44f3-a857-baaea361e076"/>
+            <Attribute ID="fb827fd8-686f-423c-b2bb-50d92a3b3027"/>
+            <Attribute ID="62a30192-0611-4caf-8cd5-5a5a6bb37783"/>
+            <Attribute ID="45fe07a3-1976-4e79-93fa-cae8c9e4da89"/>
+            <Attribute ID="5da5a9bd-abe1-4277-a58d-fca650ea5185"/>
+          </Attributes>
+        </Holder>
+        <Holder Name="VINCENT">
+          <Attributes>
+            <Attribute ID="5e897cab-4c16-44f7-94ab-d735e35ea5b8"/>
+            <Attribute ID="cc88e798-9ec0-43b8-9058-6ea98ab4160e"/>
+            <Attribute ID="a6043141-7700-44f3-a857-baaea361e076"/>
+            <Attribute ID="194ffb2d-49d9-4387-9454-6533a52f1e5c"/>
+            <Attribute ID="099d4b1b-afc8-46b1-8381-a610db987f80"/>
+            <Attribute ID="49e6aa5a-52e6-4805-a493-6b1a5c70ebd0"/>
+            <Attribute ID="5da5a9bd-abe1-4277-a58d-fca650ea5185"/>
+          </Attributes>
+        </Holder>
+      </Holders>
     </CharacterTraitData>
     <ChartOptions Identifier="InclusivityAnalysis">
       <FilterSets>
         <FilterSet Default="Yes">
-          <Filter Index="0" Name="Count" Value="MIN">
-            <Match>1</Match>
-          </Filter>
           <Filter Index="1" Name="Trait" Value="">
             <Match></Match>
+          </Filter>
+          <Filter Index="0" Name="Count" Value="MIN">
+            <Match>1</Match>
           </Filter>
           <Filter Index="0" Name="Trait" Value="Role">
             <Match></Match>
           </Filter>
         </FilterSet>
         <FilterSet>
+          <Filter Index="1" Name="Trait" Value="">
+            <Match></Match>
+          </Filter>
+          <Filter Index="0" Name="Count" Value="MIN">
+            <Match>1</Match>
+          </Filter>
+          <Filter Index="0" Name="Trait" Value="">
+            <Match></Match>
+          </Filter>
+        </FilterSet>
+        <FilterSet Default="Yes">
+          <Filter Index="0" Name="Trait" Value="Role">
+            <Match>Lead Character</Match>
+          </Filter>
           <Filter Index="0" Name="Count" Value="MIN">
             <Match>1</Match>
           </Filter>
           <Filter Index="1" Name="Trait" Value="">
-            <Match></Match>
-          </Filter>
-          <Filter Index="0" Name="Trait" Value="">
             <Match></Match>
           </Filter>
         </FilterSet>
